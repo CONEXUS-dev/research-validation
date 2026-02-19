@@ -1,0 +1,4 @@
+star_id,paradox_score,period,depth_ppm,coherence_f1,anomaly_f2,discovery_tier
+KOI-0002,0.7303,0.512,1223573,0.731,2240.449,Tier 1: Multi-planet TTV
+KOI-0009,0.7128,0.489,1359005,0.715,216.528,Tier 1: Eccentric orbit
+KOI-0002,0.7031,0.533,1235578,0.703,2262.442,Tier 1: Multi-planet TTV

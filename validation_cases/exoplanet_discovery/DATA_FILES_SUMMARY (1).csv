@@ -1,0 +1,8 @@
+file,type,rows,description
+exoplanet_catalog_100systems.csv,Data,100,Ground truth: 100 Kepler/TESS systems
+bls_candidate_pool_500candidates.csv,Data,500,BLS preprocessing: 500 transit candidates
+light_curve_metadata_20systems.csv,Data,20,Observation metadata: 20 systems
+fe_paradoxical_discoveries_3signals.csv,Results,3,FE discoveries: 3 paradoxical signals
+fe_exoplanet_complete_results.json,Results,1,Complete FE output with parameters
+README.md,Docs,~200,Full documentation and usage guide
+MANIFEST.txt,Docs,~50,File index and quick start

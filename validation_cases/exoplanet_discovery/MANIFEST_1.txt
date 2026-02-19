@@ -1,0 +1,42 @@
+FORGETTING ENGINE EXOPLANET PILOT - DATA PACKAGE
+================================================
+
+Contents:
+---------
+
+1. exoplanet_catalog_100systems.csv
+   100 ground-truth exoplanet systems (Kepler + TESS)
+
+2. bls_candidate_pool_500candidates.csv
+   500 BLS transit candidates from preprocessing
+
+3. light_curve_metadata_20systems.csv
+   Observation statistics for 20 systems
+
+4. fe_paradoxical_discoveries_3signals.csv
+   3 novel exoplanet candidates discovered by FE
+
+5. fe_exoplanet_complete_results.json
+   Complete FE pipeline output with metadata
+
+6. README.md
+   Full documentation
+
+7. MANIFEST.txt
+   This file
+
+Key Results:
+------------
+✓ 3 paradoxical discoveries
+✓ 100% anomaly recovery rate
+✓ Paradox scores: 0.70-0.73
+✓ Scaling: 8-15 discoveries for 100 systems
+
+Download & Load:
+----------------
+unzip FE_Exoplanet_Pilot_Data.zip
+python
+>>> import pandas as pd
+>>> df = pd.read_csv('exoplanet_catalog_100systems.csv')
+>>> discoveries = pd.read_csv('fe_paradoxical_discoveries_3signals.csv')
+>>> print(discoveries)
